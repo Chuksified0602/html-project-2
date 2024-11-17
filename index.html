@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nanya Kitchen Menu</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Nanya kitchen Menu</h1>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#Appetizers">Appetizers</a></li>
+            <li><a href="#Main Courses">Main Courses</a></li>
+            <li><a href="#Desserts">Desserts</a></li>
+            <li><a href="Contact.html">Contact US</a></li>
+        </ul>
+
+    </nav>
+    <h1 class="header">Nanya Kitchen Menu</h1>
 
     <!--Appetizers Section-->
-    <h2>Appetizers</h2>
-    <ul>
+    <h2 id="appetizers" class="section-header">Appetizers</h2>
+    <ul class="menu-items">
         <li>
             <strong>Caprese Salad</strong>
             <p>Creamy dip with spinach, artichoke hearts,and Parmesan cheese, served with crispy tortilla chips</p>
@@ -22,8 +32,8 @@
     </ul>
 
     <!--Main Course Section-->
-    <h2>Main Coursess</h2>
-    <ul>
+    <h2 id="main-courses" class="section-header">Main Coursess</h2>
+    <ul class="menu-items">
         <li>
             <strong>Grilled Salmon</strong>
             <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce</p>
@@ -50,5 +60,8 @@
 
     <!--Contact link-->
     <p><a href="contact.html">Contact us for reservations</a></p>
+    <footer>
+        &copy; 2023 Nanya Kitchen
+    </footer>
 </body>
 </html>
